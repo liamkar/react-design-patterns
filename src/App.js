@@ -4,6 +4,8 @@ const LeftHandComponent = ({ name }) => {
   return <h1 style={{backgroundColor: 'green'}}>{name} Left!</h1>
 }
 
+//by defining message here, it is passed automatically if we pass
+//components as children. otherwise we would have had 
 const RightHandComponent = ({ message }) => {
   return <p style={{backgroundColor: 'red'}}>{message} Right!</p>
 }
